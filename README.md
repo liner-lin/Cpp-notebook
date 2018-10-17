@@ -264,6 +264,15 @@
       + 应该先删除缓存buffer上new的对象，再删除缓存。
 
 27. explicit：可以使用explicit修饰构造函数，关闭隐式转换。
+    
+28. for循环
+    ```c++
+    for (auto x : books)   //auto 自动适配类型
+        ShowReview(x);
+    
+    for (auto &x : books)   //使用引用，可以修改books
+        ShowReview(x);
+    ```
 
 ## 类
 1. 构造与析构函数
