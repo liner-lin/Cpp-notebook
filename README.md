@@ -1,5 +1,6 @@
 # C++笔记
 
+>整理自《c++ primer》
 
 [基础知识](https://github.com/liner-lin/Cpp-notebook/blob/master/notes/basic_knowledge.md)
 
