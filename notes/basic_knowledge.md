@@ -570,15 +570,15 @@
    ```
 
 ## 异常
-    ```c++
-    throw class_name();
+```c++
+throw class_name();
 
-    try {
+try {
 
-    } catch (calss_name e) {
+} catch (calss_name e) {
 
-    }
-    ```
+}
+```
 1. 栈解退
 2. 基类exception
 3. C++库stdexcept中定义的异常类：

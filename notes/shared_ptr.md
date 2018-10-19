@@ -8,9 +8,9 @@
 ## unique_ptr
 
 ## shared_ptr
-    ```c++
-    shared_ptr<string> str1(new string());
-    ```
+```c++
+shared_ptr<string> str1(new string());
+```
 
 ## weak_ptr
 

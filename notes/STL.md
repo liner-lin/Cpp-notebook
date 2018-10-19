@@ -13,12 +13,12 @@
 + random_shuffle(iterator begin, iterator end) : 随机排序。
 
 ## 模板类vector ：动态内存分配
-    ```c++
-    template <class T, class Allocator = allocator<T>>
-    class vector {
-        ...
-    };
-    ```
+```c++
+template <class T, class Allocator = allocator<T>>
+class vector {
+    ...
+};
+```
 + 构造函数：vector<T>(const int size);
 
 + 成员函数：
@@ -123,6 +123,6 @@
   每个迭代器都重载了for_each()。
 
 ## initialize_list : C++11初始化列表
-    ```c++
-    std::vector<int> val{1, 2, 3, 4};
-    ```
+```c++
+std::vector<int> val{1, 2, 3, 4};
+```
