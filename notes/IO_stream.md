@@ -1,5 +1,6 @@
 # 输入输出iostream
-[类图](./iostream/iostream.png)
+[类图](./iostream/iostream.png)<br>  
+
 <div align="center"><ims src="./iostream/iostream.png" width=""/></div><br> 
 
 ### 四个对象
