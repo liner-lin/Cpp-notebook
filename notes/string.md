@@ -10,9 +10,9 @@
 + string() : 默认构造函数
 + string(const char *s, size_type n) : 以s的前n个字符，初始化对象。
   
-```c++
-string str("12345", 5); //对象包含"12345"，即5不算上空字符。
-```
+    ```c++
+    string str("12345", 5); //对象包含"12345"，即5不算上空字符。
+    ```
     
 + template\<class Iter>  
     string(Iter begin, Iter end) : 以begin开始，不包含end，begin/end可为迭代器对象。

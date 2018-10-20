@@ -1,0 +1,24 @@
+@startuml iostream
+package "iostream" {
+    class ios_base {
+    }
+    class ios {
+        streambuf _buf;
+    }
+    class streambuf {
+    }
+    class ostream {
+    }
+    class istream {
+    }
+    class iostream {
+    }
+
+    ios_base <|-- ios
+    ios o--> streambuf
+    ios <|-- ostream
+    ios <|-- istream
+    ostream <|-- iostream
+    istream <|-- iostream
+}
+@enduml
