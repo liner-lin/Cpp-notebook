@@ -12,9 +12,13 @@
 注2：四种字符类型：char、wchar_t、char16_t、char32_t
 
 ### iostream包中的四个对象
+
 + cin：标准输入流。
+
 + cout：标志输出流。
+
 + cerr：标志错误流。
+
 + clog：标志错误流。
 
 ## cout：标志输出
