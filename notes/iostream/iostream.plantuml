@@ -3,7 +3,7 @@ package "iostream" {
     class ios_base {
     }
     class ios {
-        streambuf _buf;
+        streambuf *_buf;
     }
     class streambuf {
     }
