@@ -23,3 +23,6 @@
 ### 3.函数对象
 
 [函数对象](https://github.com/liner-lin/Cpp-notebook/blob/master/notes/function_class.md)
+
+### 4.模板
+[模板]()
